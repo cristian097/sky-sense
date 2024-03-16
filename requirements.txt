@@ -4,6 +4,5 @@ firebase-admin
 plotly
 pandas
 openai
-os
 dotenv
 matplotlib 
