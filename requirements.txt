@@ -6,3 +6,4 @@ pandas
 openai
 dotenv
 matplotlib 
+pyrebase
