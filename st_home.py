@@ -20,8 +20,8 @@ import os
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Establecer localización en español (Colombia)
-locale.setlocale(locale.LC_TIME, 'Spanish_Colombia')
-#locale.setlocale(locale.LC_TIME, 'es_CO.utf-8')
+#locale.setlocale(locale.LC_TIME, 'Spanish_Colombia')
+locale.setlocale(locale.LC_TIME, 'es_CO.utf-8')
 
 # Ejecutamos la función de conexión con la base de datos, y asignamos esta función a la variable 'ref'
 ref = initialize_firebase()
