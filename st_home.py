@@ -14,7 +14,8 @@ from db.db_connect import initialize_firebase
 import openai
 from dotenv import load_dotenv
 import os
-import toml
+
+load_dotenv()
 
 # Ocultar advertencias de deprecation de matplotlib
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -240,9 +241,7 @@ st.markdown(definicion_mp)
 
 st.title("Asistente ambiental virtual")
 
-secrets = toml.load("secrets.toml")
-
-openai.api_key = secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
