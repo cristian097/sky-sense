@@ -3,6 +3,6 @@ firebase
 firebase-admin
 plotly
 pandas
-openai
+openai==0.28
 python-dotenv
 matplotlib 
