@@ -4,5 +4,5 @@ firebase-admin
 plotly
 pandas
 openai
-dotenv==0.19.3
+dotenv
 matplotlib 
