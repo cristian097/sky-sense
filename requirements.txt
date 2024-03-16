@@ -1,0 +1,11 @@
+streamlit
+firebase
+firebase-admin
+plotly
+pandas
+calendar
+locale
+openai
+os
+dotenv
+matplotlib 
