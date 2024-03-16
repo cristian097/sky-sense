@@ -240,6 +240,8 @@ st.markdown(definicion_mp)
 
 st.title("Asistente ambiental virtual")
 
+secrets = toml.load("secrets.toml")
+
 openai.api_key = secrets["OPENAI_API_KEY"]
 
 if "openai_model" not in st.session_state:
