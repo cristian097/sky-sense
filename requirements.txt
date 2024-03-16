@@ -1,0 +1,8 @@
+streamlit
+firebase
+firebase-admin
+plotly
+pandas
+openai
+dotenv
+matplotlib 
