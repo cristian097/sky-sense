@@ -6,6 +6,4 @@ pandas
 openai
 dotenv
 matplotlib 
---upgrade pip
---upgrade virtualenv
---ignore-installed
+pip == 24.0
