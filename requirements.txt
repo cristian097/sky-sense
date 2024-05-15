@@ -6,3 +6,5 @@ pandas
 openai==0.28
 python-dotenv
 matplotlib 
+
+#Se ejecuta con Pip install requirements.txt
